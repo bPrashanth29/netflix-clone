@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    width: 80vw;
+}
+
+nav img {
+    color: red;
+    width: 133px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+    font-family: Poppins, sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 10px;
+    padding: 0 23px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 1000;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 1000;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 1000;
+    font-size: 25px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+input[type="text"] {
+    box-shadow: border-box;
+    border-color: rgb(182, 174, 174);
+    border-radius: 8px;
+    border: 1px solid gray;
+    background: none;
+
+}
+
+.separation {
+    height: 10px;
+    background-color: gray;
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color:rgba(182, 157, 157, 0.171);
+        
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.main input{
+    padding: 7px 16px 8px 14px;
+    font-size: 10px;
+    font-weight: 900;
+    border-radius: 4px;
+    background-color: rgba(23,23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.btn-red-sn {
+    background-color: red;
+    color: white;
+}
+
